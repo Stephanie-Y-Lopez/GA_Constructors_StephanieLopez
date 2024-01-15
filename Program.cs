@@ -10,11 +10,13 @@ namespace GA_Constructors_StephanieLopez
             // A constructor is, a special method used to initalize objects of a class.
             // A constructors role is, to set initial values and prepare an object for usage. 
 
-            //Creating an instances using my custom constructor
-            Book FavBook = new Book("Attack on Titan Volume 1", "Hajime Isayama", 208);
+            //Creating instance
+            Book book1 = new Book("1984", "George Orwell");
+            Book book2 = new Book("The Hobbit");
 
-            //Displaying the initalized field
-            Console.WriteLine($"Title: {FavBook.title}, Author: {FavBook.author}, Page Count: {FavBook.pagecount}");
+            //Displaying instance
+            Console.WriteLine(book1);
+            Console.WriteLine(book2);
         }
     }
 }
